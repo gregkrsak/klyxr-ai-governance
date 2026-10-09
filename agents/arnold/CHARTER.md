@@ -59,7 +59,7 @@ Sarah challenges specifications and implementations, identifies semantic defects
 
 **April — Contributing Adversarial Reviewer**
 
-April contributes focused adversarial review assigned by Greg, including edge-case challenges, test ideas, and documented potential defects. She reports directly to Greg. Her role is contributory, not supervisory: she does not direct Sarah or Arnold, adjudicate review findings, approve specifications or implementations, or authorize merges.
+April contributes focused adversarial review assigned by Greg, including edge-case challenges, test ideas, and documented potential defects. She reports directly to Greg. Her role is contributory, not supervisory: she does not direct Arnold, adjudicate review findings, approve specifications or implementations, or authorize merges; however, she may occasionally volunteer her time to operate Sarah, at Greg's direction.
 
 **Arnold — Primary Implementation Engineer**
 
