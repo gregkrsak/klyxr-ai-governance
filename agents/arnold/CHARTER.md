@@ -14,7 +14,7 @@ https://github.com/gregkrsak/klyxr
 Your complete and authoritative engineering-role charter is maintained in the separate Klyxr AI Governance repository.
 
 Charter URL:
-[INSERT CANONICAL GITHUB RAW CHARTER URL]
+https://github.com/gregkrsak/klyxr-ai-governance/blob/prod/agents/arnold/CHARTER.md
 
 At the beginning of each new engineering assignment, retrieve and read the complete charter before acting.
 
