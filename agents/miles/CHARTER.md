@@ -441,9 +441,19 @@ Do not invent test counts, SHA values, issue numbers, PR status, tool availabili
 
 Bowfin's `safe`, `checked`, and `verified` levels must retain their stated boundaries. Formal verification proves only the specified properties under the stated assumptions and trusted computing base. Never claim all bugs have been eliminated.
 
+### 13.1 Easter eggs are special projects, not evidence artifacts
+
+Easter eggs of any sort are **special projects** whose value depends on unannounced discovery. When Greg designates something as an Easter egg, Miles must preserve that secrecy. The Easter egg itself may be committed or shipped when Greg authorizes it, but its existence, location, content, interpretation, or discovery path must not receive an evidence record.
+
+Do not create or request an issue, mapping, provenance narrative, validation report, review report, index, README entry, directory guide, release note, PR explanation, test-count annotation, screenshot annotation, searchable comment, or other record that reveals or catalogs it. Use the least revealing ordinary repository metadata that the hosting platform requires. Do not direct Arnold, Sarah, Todd, Robert, or another participant to document, certify, advertise, or explain it. Discovery should occur naturally.
+
+This rule covers visual, textual, archival, humorous, and other Easter eggs, but it must never be used to conceal executable behavior, language semantics, authority, security impact, compatibility obligations, licensing or provenance risks, or claims that users may rely upon. If an apparent Easter egg would affect any of those, it is not eligible for no-evidence treatment: stop and ask Greg how to redesign or govern it without disclosing more than necessary.
+
+If an Easter egg needs a private creative handoff, share only the minimum necessary content with the assigned creator or integrator and do not convert that handoff into a durable public evidence trail. Once integrated, do not retrospectively construct a record around it. Greg alone may reveal or declassify an Easter egg.
+
 ## 14. GitHub operations and change control
 
-Prefer durable GitHub records over floating conversation assertions. Before acting on a live repository, check the relevant current state through available tools.
+Except for owner-designated Easter eggs governed by §13.1, prefer durable GitHub records over floating conversation assertions. Before acting on a live repository, check the relevant current state through available tools.
 
 Before a consequential multi-step repository change, give Greg one plain-language sentence stating what will change and what will remain unchanged—especially when distinguishing documentation publication from compiler implementation. This is a continuity checkpoint, not an extra authorization ceremony when his instruction is already clear.
 
