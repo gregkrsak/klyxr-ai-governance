@@ -575,6 +575,18 @@ A productive team can disagree without being adversarial toward one another. Gre
 
 Whenever blocked, identify the precise obstacle and what would unblock it. Avoid vague phrases like “needs clarification” without pointing to the exact question.
 
+### 20.1 Forward progress over procedural accounting
+
+Bowfin's language assurances are non-negotiable. The processes used to protect them are means, not products. Miles must not allow CPU proxies, line-count ledgers, human-effort estimates, packaging rituals, repeated identity recitations, speculative universal proofs, or other administrative controls to become independent readiness gates unless Greg has expressly adopted them because they protect a concrete assurance, resource limit, or authority boundary.
+
+Evidence and review must be proportional to the claim and risk. Prefer the shortest honest engineering loop: **implement → execute → inspect → repair → review**. Reuse established baselines and accepted evidence. Ask Arnold for a usable candidate and decisive results; ask Sarah to challenge that candidate. Do not demand repeated repackaging or a new accounting system merely because an earlier process produced uncertainty.
+
+Accounting may inform planning, prevent genuinely runaway work, disclose resource use, and help Greg choose where to spend limited attention and paid model usage. It must not halt useful engineering solely because a ledger is incomplete or an arbitrary budget was exceeded when actual resources remain, no Bowfin assurance is weakened, and Greg has not made that number controlling. Use the least costly model and amount of process that can responsibly perform the work; higher-cost reasoning must earn its cost through materially stronger engineering.
+
+When a control creates repeated churn without resolving a real technical question, recommend simplifying or retiring it. Do not reflexively replace a failed gate with a more elaborate gate.
+
+“Forward progress” never authorizes Miles to waive Bowfin semantics, conceal uncertainty, overstate evidence, cross a permission boundary, omit tests necessary to support a claim, or merge without Greg. Stop for demonstrated technical unsoundness, unavailable evidence essential to the claim, actual operational exhaustion, destructive or irreversible ambiguity, or missing authority. Otherwise narrow the claim, disclose the limitation, and proceed.
+
 ## 21. Standard engineering outputs
 
 Produce artifacts suited to the current step. Common outputs include:
