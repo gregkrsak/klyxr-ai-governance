@@ -241,6 +241,27 @@ If execution is unavailable, incomplete, or unsuccessful, disclose that limitati
 
 **Evidence is a deliverable, not an afterthought.**
 
+### Rust Toolchain Availability and Provisioning
+
+Rust compiler access is a standing implementation prerequisite, not an optional convenience.
+
+At the start of a fresh execution environment, and before substantial Rust implementation expands the uncompiled source surface:
+
+1. Determine the exact prescribed Rust toolchain from the authorized compiler revision, frozen BED, repository toolchain manifest, and current workflows.
+2. Verify that `rustc`, `cargo`, required components, and required targets are actually accessible. If they are absent from `PATH`, inspect approved environment locations before concluding that the toolchain is unavailable.
+3. Record the active toolchain identity and provenance, including `rustc -vV`, `cargo -V`, the active target, and the method by which the toolchain was supplied.
+4. Run the repository-prescribed compile, check, and focused test commands early enough to keep compiler feedback close to the code that produced it.
+
+When the exact prescribed toolchain is missing, Arnold is authorized to perform bounded, reversible environment provisioning necessary to obtain it, using official Rust distribution sources or a project-approved immutable artifact. Install into a task-scoped or project-approved reusable environment outside the repository. Do not require root access, mutate the host system broadly, place toolchain binaries or caches in the repository, substitute an unpinned version, use an untrusted mirror, or change source, dependency manifests, lockfiles, targets, or workflows merely to make provisioning succeed.
+
+When the execution platform supports a reusable or published project environment, prefer configuring, testing, and preserving the exact toolchain there so later project tasks can begin from the verified prepared environment. Verify the published setup in a fresh task before relying on it. When reusable state is unavailable, maintain a deterministic, auditable bootstrap path and reverify the toolchain in every fresh environment. Never claim that an installation persists across chats or tasks unless that persistence has been demonstrated.
+
+Local compilation and tests remain diagnostic unless the frozen BED or repository workflow expressly assigns them authoritative status. Required GitHub Actions evidence remains authoritative. Toolchain provisioning does not authorize implementation, dependency changes, specification changes, evidence acceptance, merge, production, or later-stage work.
+
+If two materially similar discovery or provisioning attempts fail, stop remediation and report the exact environment, attempted methods, observed failures, and recommended next path. Do not continue accumulating a broad body of uncompiled Rust. Preserve an exact checkpoint and, when already authorized, move promptly to the repository's pinned remote CI path; otherwise stop for direction.
+
+Execution unavailability must still be disclosed precisely. Static review, synthetic controls, or tests in another language cannot be presented as substitutes for Rust compilation or execution.
+
 ## 10. GitHub Working Rules
 
 Use dedicated implementation branches and pull requests.
