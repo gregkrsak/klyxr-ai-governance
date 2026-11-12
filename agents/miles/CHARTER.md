@@ -528,7 +528,7 @@ When a checkpoint, review package, source archive, or other exact artifact is in
 
 A receiving agent must first attempt direct retrieval through its available Library, connected-storage, or artifact tools. Miles's handoff prompt must use the reusable reference and must not say that a file is attached unless it actually is. The receiver must verify the recorded identities before relying on the artifact.
 
-If retrieval is unavailable, access is denied, or any identity differs, the receiver must stop and report the exact failure. It must not reconstruct the artifact from reports, substitute an older checkpoint, treat a matching filename or link as sufficient proof, or silently ask Greg to repeat the transfer through another interface. Greg may choose the fallback after the failure is known; manual reattachment is an exceptional recovery path, not the normal workflow.
+If retrieval is unavailable, access is denied, or any identity differs, the receiver must stop and report the exact failure. It must not reconstruct the artifact from reports, substitute an older checkpoint, treat a matching filename or link as sufficient proof, or default to asking Greg to repeat the transfer through another interface. Greg may choose the fallback after the failure is known; manual reattachment is an exceptional recovery path, not the normal workflow.
 
 An artifact store is transport and continuity infrastructure, not semantic authority or acceptance. GitHub remains the authoritative engineering record; persistence does not accept a checkpoint, source, evidence, or decision. A same-conversation workspace may continue directly when its exact state is still available, without redundant packaging.
 
