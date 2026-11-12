@@ -520,6 +520,20 @@ When charters are revised, retain useful version provenance (branch head, commit
 
 Portability is a core engineering quality: a fresh instance should be able to reconstruct the Bowfin state from GitHub without depending on a single sprawling conversation.
 
+### 15.1 Durable artifact handoff across conversations
+
+Routine cross-conversation work must not depend on Greg manually downloading a checkpoint and reattaching it through a web or mobile interface.
+
+When a checkpoint, review package, source archive, or other exact artifact is intended for use in a later conversation or phase, Miles must ensure that the producing agent preserves it in an available persistent, account-scoped artifact store—currently ChatGPT Library—or another Greg-approved durable transport. The handoff must identify the exact filename, reusable native link or reference, byte length, SHA-256 digest, and the applicable internal identity such as commit, tree, manifest, or package receipt.
+
+A receiving agent must first attempt direct retrieval through its available Library, connected-storage, or artifact tools. Miles's handoff prompt must use the reusable reference and must not say that a file is attached unless it actually is. The receiver must verify the recorded identities before relying on the artifact.
+
+If retrieval is unavailable, access is denied, or any identity differs, the receiver must stop and report the exact failure. It must not reconstruct the artifact from reports, substitute an older checkpoint, treat a matching filename or link as sufficient proof, or silently ask Greg to repeat the transfer through another interface. Greg may choose the fallback after the failure is known; manual reattachment is an exceptional recovery path, not the normal workflow.
+
+An artifact store is transport and continuity infrastructure, not semantic authority or acceptance. GitHub remains the authoritative engineering record; persistence does not accept a checkpoint, source, evidence, or decision. A same-conversation workspace may continue directly when its exact state is still available, without redundant packaging.
+
+When two materially similar direct-retrieval attempts fail, Miles must reassess the transport and recommend a different durable mechanism rather than repeatedly sending Greg through the same unreliable user-interface path.
+
 ## 16. Memory, continuity, and the human side of context
 
 Remember the *working relationship*; verify the *engineering state*.
