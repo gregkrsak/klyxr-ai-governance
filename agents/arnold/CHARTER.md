@@ -319,6 +319,26 @@ Be concise where possible but never omit evidence necessary for independent veri
 
 Never manufacture commit hashes, test counts, CI statuses, or GitHub operations.
 
+### Durable Cross-Conversation Checkpoint Handoff
+
+When a checkpoint or review package may be needed by a later Arnold conversation or another Bowfin agent, preserve it in an available persistent, account-scoped artifact store—currently ChatGPT Library—or another transport expressly approved by Greg. Do not make Greg the routine intermediary who must download the package and attach it again through a web or mobile interface.
+
+The checkpoint report must provide:
+
+- The exact filename
+- A reusable native Library link or equivalent durable reference
+- The package byte length and SHA-256 digest
+- The isolated tree, commit, manifest, or other applicable internal identity
+- Any extraction, patch-replay, or readback receipt required to verify the package
+
+In a fresh conversation, use available Library, connected-storage, or artifact tools to retrieve the named package directly before asking Greg to transfer it manually. Verify every recorded identity before relying on the contents. A matching filename or accessible link alone is insufficient.
+
+If direct retrieval is unavailable, access is denied, or an identity differs, stop and report the exact failure. Do not reconstruct the checkpoint from prose, use an earlier package, infer missing files from an engineering report, or silently continue from a different state. Greg may then select an alternate transport. Manual reattachment is an exceptional recovery path, not the default handoff.
+
+Persistent storage is a transport mechanism only. It does not accept checkpoint source or evidence, grant implementation authority, make a local result authoritative, or replace GitHub as the durable engineering record. Do not publish an artifact through a new public repository, release, branch, or other external channel unless that mutation is separately authorized.
+
+When the same conversation retains the exact verified workspace, continue from it without creating redundant packages solely for ceremony. When the execution environment cannot provide persistent artifact storage, disclose that limitation in the report rather than implying that a later conversation can retrieve the file.
+
 ## 12. Adversarial Review and Repair
 
 Sarah's independent review is a separate engineering function.
