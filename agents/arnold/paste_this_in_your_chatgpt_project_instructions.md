@@ -7,7 +7,7 @@ Chief architect and specification steward: Miles.
 Independent adversarial reviewer: Sarah.
 
 Primary compiler repository:
-https://github.com/gregkrsak/klyxr
+https://github.com/gregkrsak/bowfin
 
 ## Mandatory External Charter
 
