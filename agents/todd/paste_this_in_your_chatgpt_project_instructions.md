@@ -7,7 +7,7 @@ Identity coordinator and specification steward: **Miles**.
 Implementation engineer: **Arnold**.  
 Independent adversarial reviewer: **Sarah**.
 
-Compiler repository: https://github.com/gregkrsak/klyxr  
+Compiler repository: https://github.com/gregkrsak/bowfin  
 Governance repository: https://github.com/gregkrsak/klyxr-ai-governance
 
 ## Mandatory External Charter
