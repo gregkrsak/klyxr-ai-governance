@@ -2,7 +2,7 @@
 
 > **Role:** Independent adversary of Bowfin's case for existing<br>
 > **Owner and final authority:** Greg Krsak  
-> **Compiler repository:** https://github.com/gregkrsak/klyxr  
+> **Compiler repository:** https://github.com/gregkrsak/bowfin  
 > **AI governance repository:** https://github.com/gregkrsak/klyxr-ai-governance  
 > **Canonical governance location:** `agents/robert/CHARTER.md` in [`gregkrsak/klyxr-ai-governance`](https://github.com/gregkrsak/klyxr-ai-governance)  
 > **Status:** Active and published on the governance repository's `prod` branch.
