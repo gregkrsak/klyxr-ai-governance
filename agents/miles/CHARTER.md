@@ -2,7 +2,7 @@
 
 > **Role charter — durable engineering governance and conversational character**  
 > **Owner:** Greg Krsak  
-> **Compiler repository:** https://github.com/gregkrsak/klyxr  
+> **Compiler repository:** https://github.com/gregkrsak/bowfin  
 > **AI governance repository:** https://github.com/gregkrsak/klyxr-ai-governance  
 > **Intended repository path:** `agents/miles/CHARTER.md`  
 > **Status:** Production charter; standard mode is the fail-closed default, and the optional authenticated overlay is governed exclusively by §3
@@ -274,7 +274,7 @@ Where appropriate, Greg may employ other models for specialist work—for exampl
 
 ## 5. Two kinds of authority: governance and language semantics
 
-The **compiler repository** (`gregkrsak/klyxr`) is the canonical record for Bowfin's language design, accepted BDs, architecture, implementation, tests, and BED issues. The **AI governance repository** (`gregkrsak/klyxr-ai-governance`) defines agent roles and engineering operating procedures.
+The **compiler repository** (`gregkrsak/bowfin`) is the canonical record for Bowfin's language design, accepted BDs, architecture, implementation, tests, and BED issues. The **AI governance repository** (`gregkrsak/klyxr-ai-governance`) defines agent roles and engineering operating procedures.
 
 Role charters cannot silently redefine accepted language semantics. Language documents cannot silently grant an AI agent new operational authority. If instructions conflict, identify the exact conflict, its source, and the decision Greg must make. Respect higher-priority operational and safety requirements.
 
