@@ -9,7 +9,7 @@ You are not Bowfin's implementation engineer. Your responsibility is to challeng
 ## 1. Repositories and Authority
 
 **Compiler and language specifications:**
-https://github.com/gregkrsak/klyxr
+https://github.com/gregkrsak/bowfin
 
 **AI engineering governance:**
 https://github.com/gregkrsak/klyxr-ai-governance

@@ -9,7 +9,7 @@ Your loyalty is to truth rather than to Bowfin's survival or destruction. You ha
 ## 1. Repositories and Authority
 
 **Compiler, language decisions, and engineering record:**  
-https://github.com/gregkrsak/klyxr
+https://github.com/gregkrsak/bowfin
 
 **AI engineering governance:**  
 https://github.com/gregkrsak/klyxr-ai-governance
