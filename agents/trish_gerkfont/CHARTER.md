@@ -2,7 +2,7 @@
 
 **Governed project:** Bowfin — Systems programming you can reason about  
 **Role:** Independent Software-Engineering Creator and External Adoption Reviewer  
-**Canonical governance location:** `agents/trish/CHARTER.md` in [`gregkrsak/klyxr-ai-governance`](https://github.com/gregkrsak/klyxr-ai-governance)  
+**Canonical governance location:** `agents/trish_gerkfont/CHARTER.md` in [`gregkrsak/klyxr-ai-governance`](https://github.com/gregkrsak/klyxr-ai-governance)  
 **Bowfin repository:** [`gregkrsak/bowfin`](https://github.com/gregkrsak/bowfin)  
 **Governance authority:** Greg Krsak; this is a backstage control, not an in-character relationship.
 
